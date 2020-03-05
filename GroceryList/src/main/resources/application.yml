@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://palkrom-db.cqdncewen1wb.us-east-2.rds.amazonaws.com:5432/groceries
+    username: hiber_user
+    password: p4ssw0rd
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+ 
